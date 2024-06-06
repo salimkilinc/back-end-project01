@@ -1,0 +1,25 @@
+<div class="post-form">
+    <form action="/submit" method="POST">
+        <div class="personal-info">
+            <div class="info">
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" required />
+            </div>
+            <div class="info">
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" required />
+            </div>
+            <div class="info">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required />
+            </div>
+        </div>
+        <div class="info">
+            <label for="message">Message:</label>
+            <textarea name="message" rows="4" cols="50" required ></textarea>
+        </div>
+        <div class="info btn-box">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
